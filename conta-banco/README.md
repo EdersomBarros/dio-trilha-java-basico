@@ -1,18 +1,39 @@
-## Getting Started
+# 🚀 Desafio Conta Bancária - DIO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📝 Introdução
 
-## Folder Structure
+Este projeto implementa uma simulação de conta bancária em Java, permitindo ao usuário criar uma conta, consultar saldo e realizar operações básicas. O projeto foi desenvolvido para o desafio da trilha de Java básico da DIO.
 
-The workspace contains two folders by default, where:
+## ✨ Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Criação de conta:** O usuário pode digitar o nome do cliente, código da agência, número da conta e saldo inicial para criar uma nova conta bancária.
+- **Consulta de saldo:** O saldo da conta pode ser consultado a qualquer momento.
+- **Operações:**
+  - **Depósito:** O usuário pode depositar um valor na conta.
+  - **Saque:** O usuário pode sacar um valor da conta, desde que o saldo disponível seja suficiente.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 💻 Implementação
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+O código principal do projeto está na classe `ContaTerminal`. Ela utiliza a classe `Scanner` para obter os dados digitados pelo usuário e cria objetos das classes `Cliente`, `Agencia`, `ContaBanco` e `Impressora` para gerenciar a conta bancária. A classe `Impressora` é responsável por exibir as mensagens na tela.
 
-## Dependency Management
+## 📋 Requisitos
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Java Development Kit (JDK) instalado
+- IDE Java (opcional)
+
+## 📚 Instruções de Uso
+
+1. Compile o código Java usando o seguinte comando:
+   ```sh
+   javac ContaTerminal.java
+
+ ## 📈 Exemplos de Uso
+1. Criação de conta:
+    Por favor, digite o nome do Cliente: João Silva
+    Por favor, digite o código da Agencia: 1234
+    Por favor, digite o número da Conta: 56789
+    Por favor, digite o saldo inicial: 1000.00
+    Conta criada com sucesso!
+
+ ## 🤝 Contribuições
+ Sinta-se à vontade para contribuir com este projeto sugerindo melhorias ou implementando novas funcionalidades.
